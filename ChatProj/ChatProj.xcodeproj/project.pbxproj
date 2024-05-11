@@ -105,6 +105,7 @@
 		076495962BEFA6F60051CB2A /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				076495A62BEFC2100051CB2A /* Mappers */,
 				076495982BEFA7050051CB2A /* Services */,
 				076495972BEFA7000051CB2A /* Models */,
 			);
@@ -134,6 +135,13 @@
 				0764959A2BEFA7AB0051CB2A /* ChatCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		076495A62BEFC2100051CB2A /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

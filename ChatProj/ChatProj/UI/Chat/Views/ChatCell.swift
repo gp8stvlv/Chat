@@ -71,7 +71,6 @@ private extension ChatCell {
             ])
         } else {
             NSLayoutConstraint.activate([
-                containerView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 150),
                 containerView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -8)
             ])
         }

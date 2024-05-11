@@ -5,6 +5,8 @@ class ChatViewController: UIViewController {
     private lazy var tableView = Self.createTableView()
     private let messageInputField = UITextField()
     private let sendButton = UIButton()
+    
+    private let userName = ""
 
     private var messages: [Message] = []
 
@@ -19,6 +21,7 @@ class ChatViewController: UIViewController {
 private extension ChatViewController {
     func configureUI() {
 
+        title = "Райффайзен Банк"
         view.backgroundColor = .systemBackground
 
         tableView.delegate = self
